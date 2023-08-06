@@ -18,7 +18,6 @@ public class Main {
 
             while ((line = br.readLine()) != null) {
                 columnValues.add(line);
-                // Выводим содержимое файла построчно
             }
         } catch (IOException e) {
             e.printStackTrace();
